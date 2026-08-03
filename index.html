@@ -13,31 +13,79 @@
         }
 
         body{
-    font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
 
-    background:
-        linear-gradient(
-            rgba(0,0,0,0.65),
-            rgba(0,0,0,0.65)
-        ),
-        url("gmserverbgi.jpg");
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.65),
+                    rgba(0,0,0,0.65)
+                ),
+                url("gmserverbgi.jpg");
 
-    background-size:cover;
-    background-position:center;
+            background-size:cover;
+            background-position:center;
 
-    color:white;
+            color:white;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+            display:flex;
+            justify-content:center;
+            align-items:center;
 
-    height:100vh;
-    text-align:center;
-}
-        
+            height:100vh;
+            text-align:center;
+        }
+
+        .container{
+            max-width:850px;
+            padding:45px;
+
+            background:rgba(0,0,0,0.65);
+
+            border-radius:20px;
+
+            backdrop-filter:blur(8px);
+
+            box-shadow:0 0 30px rgba(0,0,0,0.8);
+        }
+
+        h1{
+            font-size:3rem;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:1.2rem;
+            margin-bottom:30px;
+            color:#ccc;
+        }
+
+        a.button{
+            display:inline-block;
+            padding:18px 36px;
+
+            background:#00bfff;
+            color:white;
+
+            text-decoration:none;
+
+            border-radius:10px;
+
+            font-size:1.25rem;
+            font-weight:bold;
+
+            transition:.2s;
+        }
+
+        a.button:hover{
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+
 <body>
 
 <div class="container">
+
 <h1>Cytrozian ULTIMATE SANDBOX Server</h1>
 
 <p>
@@ -67,6 +115,7 @@ target="_blank">
 Subscribe to Workshop Collection!
 
 </a>
+
 </div>
 
 </body>
